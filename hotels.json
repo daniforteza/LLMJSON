@@ -1,0 +1,710 @@
+[
+    {
+        "idHotel": 0,
+        "nomHotel": "Gran Hotel",
+        "estrellesHotel": 5,
+        "capacitat":800,
+        "email": "granhotel@gmail.com",
+        "espaiMascotes": true,
+        "Gimnas": false,
+        "Piscina": false,
+        "nombreHabitacions": 211,
+        
+        "habitacions": [
+            {
+                "idHabitacio": 1,
+                "capacitat": 4,
+                "llits": "2",   
+                "televisor":true,
+                "telefon":true,    
+                "servellNeteja":false,
+                "vistesMar": false,
+                "calefaccio": false,             
+                "bany": true,
+                "minibar": false,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",                               
+                                "preu": {
+                                    "preuAgregador": 12,
+                                    "preuFinal": 18,
+                                    "comissio": 6
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 10,
+                                    "preuFinal": 15,
+                                    "comissio": 5
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 21,
+                                    "preuFinal": 26,
+                                    "comissio": 9
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 8,
+                                    "preuFinal": 10,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 32,
+                                    "preuFinal": 35,
+                                    "comissio": 20
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 22,
+                                    "comissio": 2
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "idHabitacio": 2,
+                "capacitat": 2,
+                "llits": "1",   
+                "televisor":false,
+                "telefon":true,    
+                "servellNeteja":true,
+                "vistesMar": true,
+                "calefaccio": true,             
+                "bany": true,
+                "minibar": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",                               
+                                "preu": {
+                                    "preuAgregador": 23,
+                                    "preuFinal": 26,
+                                    "comissio": 3
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 12,
+                                    "preuFinal": 20,
+                                    "comissio": 8
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 40,
+                                    "preuFinal": 50,
+                                    "comissio": 10
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 25,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 43,
+                                    "preuFinal": 56,
+                                    "comissio": 20
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 22,
+                                    "comissio": 2
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "idHabitacio": 3,
+                "capacitat": 3,
+                "llits": "2",   
+                "televisor":true,
+                "telefon":true,    
+                "servellNeteja":true,
+                "vistesMar": true,
+                "calefaccio": true,             
+                "bany": true,
+                "minibar": false,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",                               
+                                "preu": {
+                                    "preuAgregador": 15,
+                                    "preuFinal": 20,
+                                    "comissio": 7
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 10,
+                                    "preuFinal": 15,
+                                    "comissio": 5
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 21,
+                                    "preuFinal": 26,
+                                    "comissio": 9
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 8,
+                                    "preuFinal": 10,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 32,
+                                    "preuFinal": 35,
+                                    "comissio": 20
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 22,
+                                    "comissio": 2
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "idHotel": 1,
+        "nomHotel": "La costa del Sol",
+        "estrellesHotel":2,
+        "capacitat":400,
+        "email": "lacostadelsol@gmail.com",
+        "espaiMascotes": false,
+        "Gimnas": false,
+        "Piscina": false,
+        "nombreHabitacions": 50,
+        
+        "habitacions": [
+            {
+                "idHabitacio": 1,
+                "capacitat": 4,
+                "llits": "4",   
+                "televisor":true,
+                "telefon":true,    
+                "servellNeteja":true,
+                "vistesMar": true,
+                "calefaccio": true,             
+                "bany": false,
+                "minibar": false,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",                               
+                                "preu": {
+                                    "preuAgregador": 34,
+                                    "preuFinal": 40,
+                                    "comissio": 10
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 21,
+                                    "preuFinal": 26,
+                                    "comissio": 5
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 70,
+                                    "preuFinal": 75,
+                                    "comissio": 23
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 30,
+                                    "preuFinal": 40,
+                                    "comissio": 10
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 45,
+                                    "preuFinal": 50,
+                                    "comissio": 7
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 22,
+                                    "comissio": 2
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "idHabitacio": 2,
+                "capacitat": 6,
+                "llits": "3",   
+                "televisor":true,
+                "telefon":false,    
+                "servellNeteja":false,
+                "vistesMar": false,
+                "calefaccio": false,             
+                "bany": true,
+                "minibar": false,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",                               
+                                "preu": {
+                                    "preuAgregador": 23,
+                                    "preuFinal": 29,
+                                    "comissio": 3
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 15,
+                                    "preuFinal": 23,
+                                    "comissio": 8
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 32,
+                                    "preuFinal": 35,
+                                    "comissio": 3
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 25,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 35,
+                                    "preuFinal": 49,
+                                    "comissio": 12
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 10,
+                                    "preuFinal": 15,
+                                    "comissio": 2
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "idHabitacio": 3,
+                "capacitat": 2,
+                "llits": "1",   
+                "televisor":true,
+                "telefon":true,    
+                "servellNeteja":true,
+                "vistesMar": true,
+                "calefaccio": true,             
+                "bany": true,
+                "minibar": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",                               
+                                "preu": {
+                                    "preuAgregador": 40,
+                                    "preuFinal": 50,
+                                    "comissio": 6
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 30,
+                                    "comissio": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 40,
+                                    "preuFinal": 54,
+                                    "comissio": 10
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 30,
+                                    "comissio": 6
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 32,
+                                    "preuFinal": 45,
+                                    "comissio": 8
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 28,
+                                    "preuFinal": 30,
+                                    "comissio": 2
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "idHotel": 2,
+        "nomHotel": "DivisionHotel's",
+        "estrellesHotel":6,
+        "capacitat":850,
+        "email": "divisioncompany@gmail.com",
+        "espaiMascotes": true,
+        "Gimnas": true,
+        "Piscina": true,
+        "nombreHabitacions": 250,
+        
+        "habitacions": [
+            {
+                "idHabitacio": 1,
+                "capacitat": 2,
+                "llits": "2",   
+                "televisor":true,
+                "telefon":true,    
+                "servellNeteja":true,
+                "vistesMar": true,
+                "calefaccio": true,             
+                "bany": true,
+                "minibar": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",                               
+                                "preu": {
+                                    "preuAgregador": 34,
+                                    "preuFinal": 40,
+                                    "comissio": 10
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 21,
+                                    "preuFinal": 26,
+                                    "comissio": 5
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 70,
+                                    "preuFinal": 75,
+                                    "comissio": 23
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 30,
+                                    "preuFinal": 40,
+                                    "comissio": 10
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 45,
+                                    "preuFinal": 50,
+                                    "comissio": 7
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 22,
+                                    "comissio": 2
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "idHabitacio": 2,
+                "capacitat": 3,
+                "llits": "2",   
+                "televisor":true,
+                "telefon":true,    
+                "servellNeteja":true,
+                "vistesMar": true,
+                "calefaccio": true,             
+                "bany": true,
+                "minibar": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",                               
+                                "preu": {
+                                    "preuAgregador": 23,
+                                    "preuFinal": 29,
+                                    "comissio": 3
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 15,
+                                    "preuFinal": 23,
+                                    "comissio": 8
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 32,
+                                    "preuFinal": 35,
+                                    "comissio": 3
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 25,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 35,
+                                    "preuFinal": 49,
+                                    "comissio": 12
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 10,
+                                    "preuFinal": 15,
+                                    "comissio": 2
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "idHabitacio": 3,
+                "capacitat": 4,
+                "llits": "3",   
+                "televisor":true,
+                "telefon":true,    
+                "servellNeteja":true,
+                "vistesMar": true,
+                "calefaccio": true,             
+                "bany": true,
+                "minibar": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",                               
+                                "preu": {
+                                    "preuAgregador": 40,
+                                    "preuFinal": 50,
+                                    "comissio": 6
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 30,
+                                    "comissio": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 40,
+                                    "preuFinal": 54,
+                                    "comissio": 10
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 20,
+                                    "preuFinal": 30,
+                                    "comissio": 6
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "temporada": "alta",
+                                "preu": {
+                                    "preuAgregador": 32,
+                                    "preuFinal": 45,
+                                    "comissio": 8
+                                }
+                            },
+                            {
+                                "temporada": "baixa",
+                                "preu": {
+                                    "preuAgregador": 28,
+                                    "preuFinal": 30,
+                                    "comissio": 2
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
