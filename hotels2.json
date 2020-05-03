@@ -1,0 +1,684 @@
+[
+    {
+        "id": 0,
+        "nom": "Hotel Karl Marx",
+        "estrelles": 4,
+        "localitzacio": "Nebot, 23",
+        "permetMascotes": true,
+        "serveiNeteja": true,
+        "wifi": true,
+        "menjars": true,
+        "berenar": {
+            "carta": false,
+            "preu": 12,
+            "imposts": 21,
+            "preuTotal": 14,
+            "moneda": "euro"
+        },
+        "dinar": {
+            "carta": true,
+            "preu": null,
+            "imposts": null,
+            "preuTotal": null,
+            "moneda": "euro"
+        },
+        "sopar": {
+            "carta": true,
+            "preu": null,
+            "imposts": null,
+            "preuTotal": null,
+            "moneda": "euro"
+        },
+        "habitacions": [
+            {
+                "id": 0,
+                "mida": 22,
+                "llits": ["doble"],
+                "bany": true,
+                "minibar": true,
+                "permet_fumar": false,
+                "calefaccio": true,
+                "tv": true,
+                "telefon": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 12,
+                                    "impostos": 21,
+                                    "comissio": 6
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 17,
+                                    "comissio": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 13,
+                                    "impostos": 21,
+                                    "comissio": 8
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 7,
+                                    "impostos": 18,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 21,
+                                    "comissio": 7
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 8,
+                                    "impostos": 16,
+                                    "comissio": 5
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "mida": 15,
+                "llits": ["individual"],
+                "bany": true,
+                "minibar": false,
+                "permet_fumar": false,
+                "calefaccio": true,
+                "tv": false,
+                "telefon": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 14,
+                                    "impostos": 21,
+                                    "comissio": 6
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 10,
+                                    "impostos": 17,
+                                    "comissio": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 10,
+                                    "impostos": 21,
+                                    "comissio": 7
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 16,
+                                    "comissio": 5
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "mida": 28,
+                "llits": ["doble", "individual"],
+                "bany": true,
+                "minibar": true,
+                "permet_fumar": false,
+                "calefaccio": true,
+                "tv": true,
+                "telefon": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 12,
+                                    "impostos": 15,
+                                    "comissio": 8
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 16,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 12,
+                                    "impostos": 21,
+                                    "comissio": 9
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 8,
+                                    "impostos": 20,
+                                    "comissio": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 11,
+                                    "impostos": 21,
+                                    "comissio": 7
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 10,
+                                    "impostos": 16,
+                                    "comissio": 5
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "nom": "Hotel Lenin",
+        "estrelles": 2,
+        "localitzacio": "Velazquez, 12",
+        "permetMascotes": false,
+        "serveiNeteja": false,
+        "wifi": true,
+        "menjars": true,
+        "berenar": {
+            "carta": true,
+            "preu": null,
+            "imposts": null,
+            "preuTotal": null,
+            "moneda": "euro"
+        },
+        "habitacions": [
+            {
+                "id": 0,
+                "mida": 12,
+                "llits": ["individual"],
+                "bany": true,
+                "minibar": false,
+                "permet_fumar": false,
+                "calefaccio": false,
+                "tv": false,
+                "telefon": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 12,
+                                    "impostos": 15,
+                                    "comissio": 8
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 16,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 11,
+                                    "impostos": 21,
+                                    "comissio": 7
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 10,
+                                    "impostos": 16,
+                                    "comissio": 5
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "mida": 12,
+                "llits": ["individual"],
+                "bany": true,
+                "minibar": false,
+                "permet_fumar": false,
+                "calefaccio": false,
+                "tv": false,
+                "telefon": false,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 13,
+                                    "impostos": 15,
+                                    "comissio": 7
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 8,
+                                    "impostos": 16,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 16,
+                                    "impostos": 20,
+                                    "comissio": 9
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 14,
+                                    "comissio": 4
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "mida": 20,
+                "llits": ["doble", "individual"],
+                "bany": false,
+                "minibar": false,
+                "permet_fumar": false,
+                "calefaccio": false,
+                "tv": false,
+                "telefon": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 14,
+                                    "impostos": 6,
+                                    "comissio": 8
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 11,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 11,
+                                    "impostos": 21,
+                                    "comissio": 9
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 20,
+                                    "comissio": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 12,
+                                    "impostos": 21,
+                                    "comissio": 7
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 11,
+                                    "impostos": 16,
+                                    "comissio": 8
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "nom": "Hotel Trotsky",
+        "estrelles": 5,
+        "localitzacio": "Borja Moll, 34",
+        "permetMascotes": false,
+        "serveiNeteja": true,
+        "wifi": true,
+        "menjars": true,
+        "berenar": {
+            "carta": false,
+            "preu": 15,
+            "imposts": 21,
+            "preuTotal": 18,
+            "moneda": "euro"
+        },
+        "dinar": {
+            "carta": true,
+            "preu": null,
+            "imposts": null,
+            "preuTotal": null,
+            "moneda": "euro"
+        },
+        "sopar": {
+            "carta": true,
+            "preu": null,
+            "imposts": null,
+            "preuTotal": null,
+            "moneda": "euro"
+        },
+        "habitacions": [
+            {
+                "id": 0,
+                "mida": 18,
+                "llits": ["individual"],
+                "bany": true,
+                "minibar": true,
+                "permet_fumar": false,
+                "calefaccio": true,
+                "tv": true,
+                "telefon": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 11,
+                                    "impostos": 15,
+                                    "comissio": 8
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 16,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 11,
+                                    "impostos": 19,
+                                    "comissio": 5
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 10,
+                                    "impostos": 21,
+                                    "comissio": 8
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 14,
+                                    "impostos": 18,
+                                    "comissio": 6
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 8,
+                                    "impostos": 12,
+                                    "comissio": 6
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "mida": 17,
+                "llits": ["individual"],
+                "bany": true,
+                "minibar": false,
+                "permet_fumar": false,
+                "calefaccio": true,
+                "tv": false,
+                "telefon": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 15,
+                                    "impostos": 17,
+                                    "comissio": 8
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 16,
+                                    "comissio": 3
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 11,
+                                    "impostos": 18,
+                                    "comissio": 9
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 8,
+                                    "impostos": 20,
+                                    "comissio": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 12,
+                                    "impostos": 21,
+                                    "comissio": 8
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 16,
+                                    "comissio": 4
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "mida": 28,
+                "llits": ["doble"],
+                "bany": true,
+                "minibar": true,
+                "permet_fumar": false,
+                "calefaccio": true,
+                "tv": true,
+                "telefon": true,
+                "agregadors": [
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 10,
+                                    "impostos": 18,
+                                    "comissio": 8
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 9,
+                                    "impostos": 17,
+                                    "comissio": 5
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 12,
+                                    "impostos": 21,
+                                    "comissio": 9
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 8,
+                                    "impostos": 20,
+                                    "comissio": 4
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "tarifes": [
+                            {
+                                "tarifa": "estiu",
+                                "preu": {
+                                    "preu_net": 11,
+                                    "impostos": 21,
+                                    "comissio": 7
+                                }
+                            },
+                            {
+                                "tarifa": "hivern",
+                                "preu": {
+                                    "preu_net": 10,
+                                    "impostos": 16,
+                                    "comissio": 5
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
